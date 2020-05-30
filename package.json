@@ -1,0 +1,34 @@
+{
+  "name": "firstnodeproject",
+  "version": "1.0.0",
+  "description": "My first node project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.0",
+    "express-rate-limit": "^5.1.1",
+    "helmet": "^3.22.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "react": "^16.13.1",
+    "slugify": "^1.4.0",
+    "validator": "^13.0.0",
+    "xss-clean": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=10.17.0"
+  },
+  "devDependencies": {}
+}
